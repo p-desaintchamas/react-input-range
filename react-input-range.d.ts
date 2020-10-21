@@ -32,6 +32,7 @@ export interface InputRangeProps {
   onChange: (value: Range | number) => void;
   onChangeStart?: (value: Range | number) => void;
   onChangeComplete?: (value: Range | number) => void;
+  onClick?: (value: any) => void;
   step?: number;
   value: Range | number;
 }
